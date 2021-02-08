@@ -89,7 +89,7 @@ services:
 
   nodered:
     container_name: nodered
-    image: nodered/node-red-docker:latest
+    image: nodered/node-red-docker:v10
     network_mode: host
     volumes:
       - /etc/timezone:/etc/timezone:ro
